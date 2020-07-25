@@ -6,7 +6,7 @@ from pygame.sprite import Group
 from alien import Alien
 from game_stats import GameStats
 
-import pygame
+import pygame # import
 
 def run_game():
     pygame.init() # Initializes pygame

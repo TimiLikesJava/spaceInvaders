@@ -72,7 +72,7 @@ def create_alien(settings , screen , aliens , aliens_no , no_rows):
     alien.x = alien_width + 2 * alien_width * aliens_no
     alien.y = alien.rect.height + 2 * alien.rect.height * no_rows
     alien.rect.x = alien.x
-    aliens.add(alien)
+    aliens.add(alien) #
 
 def create_fleet(settings , screen , ship , aliens):
     alien = Alien(settings , screen) 
